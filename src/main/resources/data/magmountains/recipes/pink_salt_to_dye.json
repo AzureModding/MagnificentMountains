@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "magmountains:pink_salt_shards"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_dye",
+    "count": 3
+  }
+}

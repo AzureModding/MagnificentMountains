@@ -1,0 +1,9 @@
+
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "magmountains:block/dogwood_planks",
+    "top": "magmountains:block/dogwood_planks",
+    "side": "magmountains:block/dogwood_planks"
+  }
+}

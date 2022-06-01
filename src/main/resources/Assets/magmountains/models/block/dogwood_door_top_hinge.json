@@ -1,0 +1,8 @@
+
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "magmountains:block/dogwood_door_top",
+    "bottom": "magmountains:block/dogwood_door_bottom"
+  }
+}

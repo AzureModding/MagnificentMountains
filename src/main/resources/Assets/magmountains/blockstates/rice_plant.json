@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "magmountains:block/rice_stage0"
+    },
+    "age=1": {
+      "model": "magmountains:block/rice_stage1"
+    },
+    "age=2": {
+      "model": "magmountains:block/rice_stage2"
+    },
+    "age=3": {
+      "model": "magmountains:block/rice_stage3"
+    },
+    "age=4": {
+      "model": "magmountains:block/rice_stage4"
+    },
+    "age=5": {
+      "model": "magmountains:block/rice_stage5"
+    },
+    "age=6": {
+      "model": "magmountains:block/rice_stage6"
+    },
+    "age=7": {
+      "model": "magmountains:block/rice_stage7"
+    }
+  }
+}

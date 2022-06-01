@@ -1,0 +1,10 @@
+{
+  "double_violin_concerto_1": {
+    "sounds": [
+      {
+        "name": "magmountains:double_violin_concerto_1",
+        "stream": true
+      }
+    ]
+  }
+}

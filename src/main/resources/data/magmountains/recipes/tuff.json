@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#+#",
+    "X#X"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:basalt"
+      },
+      {
+        "item": "minecraft:smooth_basalt"
+      }
+    ],
+    "X": {
+      "item": "minecraft:andesite"
+    },
+    "+": {
+      "item": "minecraft:gray_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:tuff"
+  }
+}

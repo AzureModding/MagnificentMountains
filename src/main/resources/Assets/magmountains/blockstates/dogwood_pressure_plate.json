@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "magmountains:block/dogwood_pressure_plate" },
+    "powered=true": { "model": "magmountains:block/dogwood_pressure_plate_down" }
+  }
+}

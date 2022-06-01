@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#+#",
+    "X#X"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "X": {
+      "item": "minecraft:diorite"
+    },
+    "+": {
+      "item": "minecraft:white_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:calcite"
+  }
+}

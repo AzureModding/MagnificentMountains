@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "magmountains:dogwood_log",
+    "magmountains:stripped_dogwood_log",
+    "magmountains:maple_log",
+    "magmountains:stripped_maple_log"
+  ]
+}

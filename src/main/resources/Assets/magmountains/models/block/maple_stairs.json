@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "magmountains:block/maple_planks",
+    "top": "magmountains:block/maple_planks",
+    "side": "magmountains:block/maple_planks"
+  }
+}

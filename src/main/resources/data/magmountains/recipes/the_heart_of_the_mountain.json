@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/X/",
+    " M ",
+    " / "
+  ],
+  "key": {
+    "/": {
+      "item": "magmountains:dogwood_log"
+    },
+    "M": {
+      "item": "minecraft:snow_block"
+    },
+    "X": {
+      "item": "mamgountains:the_heart_of_the_mountain"
+    }
+  },
+
+  "result": {
+    "item": "magmountains:mountain_staff",
+    "count": 1
+  }
+}

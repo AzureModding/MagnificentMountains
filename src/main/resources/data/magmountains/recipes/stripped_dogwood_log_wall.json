@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "magmountains:stripped_dogwood_log"
+    }
+  },
+  "result": {
+    "item": "magmountains:stirpped_dogwood_log_wall",
+    "count": 4
+  }
+}

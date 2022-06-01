@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "magmountains:ibexmeat"
+  },
+  "result": "magmountains:ibexbeef",
+  "experience": 1.0,
+  "cookingtime": 600
+}

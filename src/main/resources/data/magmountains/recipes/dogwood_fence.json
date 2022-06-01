@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#+#",
+    "#+#",
+    "   "
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "magmountains:dogwood_planks"
+      }
+    ],
+
+    "+": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "magmountains:dogwood_fence",
+    "count": 3
+  }
+}

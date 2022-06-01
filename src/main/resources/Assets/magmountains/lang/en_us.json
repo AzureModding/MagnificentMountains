@@ -1,0 +1,67 @@
+{
+  "item.magmountains.ibexmeat": "Ibexmeat",
+  "item.magmountains.ibexbeef": "Ibexbeef",
+  "item.magmountains.salted_ibexbeef": "Salted Ibexbeef",
+  "item.magmountains.salted_ibexbeef.desc": "This might be a little OP, tell me how you feel about it.",
+
+  "item.magmountains.double_violin_concerto_1_music_disc": "Double Violin Concerto 1st Movement Music Disc",
+  "item.magmountains.double_violin_concerto_1_music_disc.desc": "J.S. Bach - Double Violin Concerto 1st Movement - (CCO)",
+
+  "item.magmountains.pink_salt_shards": "Pink Salt Shards",
+  "item.magmountains.the_heart_of_the_mountain": "Heart Of The Mountain",
+  "desc.magmountains.the_heart_of_the_mountain": "Radiates a strange power",
+  "item.magmountains.mountain_staff": "Mountain Staff",
+  "desc.magmountains.mountain_staff": "A staff used by the greatest of wizards, harnessing the power of the mountain",
+
+  "item.magmountains.yakmilk": "Yakmilk",
+  "item.magmountains.yak_cheese": "Yak Cheese",
+  "item.magmountains.yakwool_boots": "Yak Wool Boots",
+  "item.magmountains.yakwool_leggings": "Yak Wool Leggings",
+  "item.magmountains.yakwool_chestplate": "Yak Wool Chestplate",
+  "item.magmountains.yakwool_helmet": "Yak Wool Helmet",
+  "item.magmountains.rice": "Rice",
+
+  "block.magmountains.yak_wool": "Yak Wool",
+  "block.magmountains.pink_salt": "Pink Salt",
+
+  "block.magmountains.maple_planks": "Maple Planks",
+  "desc.magmountains.maple_planks": "Mmmm Maple Syrup...",
+  "block.magmountains.maple_log": "Maple Log",
+  "block.magmountains.maple_wood": "Maple Wood",
+  "block.magmountains.stripped_maple_log": "Stripped Maple Log",
+  "block.magmountains.stripped_maple_wood": "Stripped Maple Wood",
+  "block.magmountains.maple_fence":  "Maple Fence",
+  "block.magmountains.maple_fence_gate":  "Maple Fence Gate",
+  "block.magmountains.maple_stairs":  "Maple Stairs",
+  "block.magmountains.maple_slab":  "Maple Slab",
+  "block.magmountains.maple_door":  "Maple Door",
+  "block.magmountains.maple_trapdoor":  "Maple Trapdoor",
+
+  "block.magmountains.dogwood_log": "Dogwood Log",
+  "block.magmountains.dogwood_wood": "Dogwood Wood",
+  "block.magmountains.stripped_dogwood_log": "Stripped Dogwood Log",
+  "block.magmountains.stripped_dogwood_wood": "Stripped Dogwood Wood",
+  "block.magmountains.dogwood_leav": "Dogwood Leaves",
+  "block.magmountains.flowering_dogwood_leaf": "Flowering Dogwood Leaves",
+  "block.magmountains.dogwood_sapling": "Dogwood Sapling",
+  "block.magmountains.dogwood_stairs": "Dogwood Stairs",
+  "block.magmountains.dogwood_fence": "Dogwood Fence",
+  "block.magmountains.dogwood_fence_gate": "Dogwood Fence Gate",
+  "block.magmountains.dogwood_slab": "Dogwood Slab",
+  "block.magmountains.dogwood_planks": "Dogwood Planks",
+  "block.magmountains.dogwood_door": "Dogwood Door",
+  "block.magmountains.dogwood_trapdoor": "Dogwood Trapdoor",
+  "block.magmountains.dogwood_button": "Dogwood Button",
+  "block.magmountains.dogwood_pressure_plate": "Dogwood Pressure Plate",
+  "block.magmountains.dogwood_log_wall": "Dogwood Log Wall",
+  "block.magmountains.stripped_dogwood_log_wall": "Stripped Dogwood Log Wall",
+
+  "block.magmountains.rhododendron": "Rhododendron",
+  "block.magmountains.potted_rhododendron": "How Did You Get This",
+
+  "block.magmountains.calcite_stairs": "Calcite Stairs",
+  "block.magmountains.calcite_slab": "Calcite Slab",
+
+  "itemGroup.rockiestab": "RockiesMM",
+  "itemGroup.himalayantab": "HimalayanMM"
+}

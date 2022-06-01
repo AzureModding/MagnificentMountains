@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "magmountains:dogwood_log"
+    }
+  ],
+  "result": {
+    "item": "magmountains:dogwood_planks",
+    "count": 4
+  }
+}

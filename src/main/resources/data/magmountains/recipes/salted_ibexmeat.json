@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "key": {
+    "/": {
+      "item": "magmountains:pink_salt_shards"
+    },
+    "#": {
+      "item": "magmountains:ibexbeef"
+    }
+  },
+
+  "result": {
+    "item": "magmountains:salted_ibexbeef",
+    "count": 1
+  }
+}
