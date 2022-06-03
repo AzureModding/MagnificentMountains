@@ -2,7 +2,7 @@ package net.hadron_studios.magnificentmountains.event;
 
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
-import net.hadron_studios.magnificentmountains.MagnificentMountainsMod;
+import net.hadron_studios.magnificentmountains.MagnificentMountains;
 import net.hadron_studios.magnificentmountains.block.ModBlocks;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import java.util.List;
 
-@Mod.EventBusSubscriber(modid = MagnificentMountainsMod.MOD_ID)
+@Mod.EventBusSubscriber(modid = MagnificentMountains.MOD_ID)
 public class ModEvents {
     @SubscribeEvent
     public static void addCustomTrades(VillagerTradesEvent event) {

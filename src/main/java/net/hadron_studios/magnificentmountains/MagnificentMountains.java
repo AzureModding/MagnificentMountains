@@ -28,14 +28,14 @@ import software.bernie.geckolib3.GeckoLib;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(MagnificentMountainsMod.MOD_ID)
-public class MagnificentMountainsMod
+@Mod(MagnificentMountains.MOD_ID)
+public class MagnificentMountains
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "magmountains";
 
-    public MagnificentMountainsMod() {
+    public MagnificentMountains() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

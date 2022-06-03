@@ -1,6 +1,6 @@
 package net.hadron_studios.magnificentmountains.item;
 
-import net.hadron_studios.magnificentmountains.MagnificentMountainsMod;
+import net.hadron_studios.magnificentmountains.MagnificentMountains;
 import net.hadron_studios.magnificentmountains.entity.ModEntityTypes;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -13,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, MagnificentMountainsMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, MagnificentMountains.MOD_ID);
 
    public static final RegistryObject<Item> IBEXMEAT = ITEMS.register("ibexmeat",
            () -> new Item(new Item.Properties().tab(ModCreativeModTab.MAGNIFICENT_MOUNTAINS).food(ModFoods.IBEXMEAT)));

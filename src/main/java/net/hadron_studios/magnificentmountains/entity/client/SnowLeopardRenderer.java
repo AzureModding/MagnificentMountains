@@ -2,7 +2,7 @@ package net.hadron_studios.magnificentmountains.entity.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import net.hadron_studios.magnificentmountains.MagnificentMountainsMod;
+import net.hadron_studios.magnificentmountains.MagnificentMountains;
 import net.hadron_studios.magnificentmountains.entity.modlivingentity.SnowLeopard;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
@@ -18,7 +18,7 @@ public class SnowLeopardRenderer extends GeoEntityRenderer<SnowLeopard> {
 
     @Override
     public ResourceLocation getTextureLocation(SnowLeopard instance) {
-        return new ResourceLocation(MagnificentMountainsMod.MOD_ID, "textures/entity/snow_leopard/snow_leopard.png");
+        return new ResourceLocation(MagnificentMountains.MOD_ID, "textures/entity/snow_leopard/snow_leopard.png");
     }
 
     @Override

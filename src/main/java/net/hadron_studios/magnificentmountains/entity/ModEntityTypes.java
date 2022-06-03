@@ -1,6 +1,6 @@
 package net.hadron_studios.magnificentmountains.entity;
 
-import net.hadron_studios.magnificentmountains.MagnificentMountainsMod;
+import net.hadron_studios.magnificentmountains.MagnificentMountains;
 import net.hadron_studios.magnificentmountains.entity.modlivingentity.SnowLeopard;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -12,12 +12,12 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModEntityTypes {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
-            DeferredRegister.create(ForgeRegistries.ENTITIES, MagnificentMountainsMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ENTITIES, MagnificentMountains.MOD_ID);
    public static final RegistryObject<EntityType<SnowLeopard>> SNOW_LEOPARD =
            ENTITY_TYPES.register("snow_leopard",
                    () -> EntityType.Builder.of(SnowLeopard::new, MobCategory.CREATURE)
                            .sized(1.3F, 1.25F)
-                           .build(new ResourceLocation(MagnificentMountainsMod.MOD_ID, "snow_leopard").toString()));
+                           .build(new ResourceLocation(MagnificentMountains.MOD_ID, "snow_leopard").toString()));
 
 
 

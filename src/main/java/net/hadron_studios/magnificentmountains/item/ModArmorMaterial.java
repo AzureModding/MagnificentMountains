@@ -1,6 +1,6 @@
 package net.hadron_studios.magnificentmountains.item;
 
-import net.hadron_studios.magnificentmountains.MagnificentMountainsMod;
+import net.hadron_studios.magnificentmountains.MagnificentMountains;
 import net.hadron_studios.magnificentmountains.block.ModBlocks;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -59,7 +59,7 @@ public enum ModArmorMaterial implements ArmorMaterial {
     }
 
     public String getName() {
-        return MagnificentMountainsMod.MOD_ID + ":" + this.name;
+        return MagnificentMountains.MOD_ID + ":" + this.name;
     }
 
     public float getToughness() {

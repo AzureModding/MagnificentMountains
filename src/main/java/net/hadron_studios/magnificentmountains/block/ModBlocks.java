@@ -1,6 +1,6 @@
 package net.hadron_studios.magnificentmountains.block;
 
-import net.hadron_studios.magnificentmountains.MagnificentMountainsMod;
+import net.hadron_studios.magnificentmountains.MagnificentMountains;
 import net.hadron_studios.magnificentmountains.block.custom.ModFlammableRotatedPillarBlock;
 import net.hadron_studios.magnificentmountains.item.ModCreativeModTab;
 import net.hadron_studios.magnificentmountains.item.ModItems;
@@ -27,7 +27,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, MagnificentMountainsMod.MOD_ID );
+            DeferredRegister.create(ForgeRegistries.BLOCKS, MagnificentMountains.MOD_ID );
 
     public static final RegistryObject<Block> YAK_WOOL = registerBlock("yak_wool",
              () -> new Block(BlockBehaviour.Properties.of(Material.WOOL)
