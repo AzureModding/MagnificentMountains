@@ -29,9 +29,9 @@ displayName="MagnificentMountains" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="magmountains.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks to the amazing outdoors for inspiring this mod.
+credits="Thanks to the amazing outdoors for inspiring this mod."
 # A text field displayed in the mod UI
-authors="Antarctic" #optional
+authors="Azure, CalamariKing_" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''A mod that adds new mobs, trees, and more. Biomes include: Himalayas, and Rockies
 '''

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "magmountains:item/double_violin_concerto_1_music_disc"
-  }
-}
