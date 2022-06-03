@@ -17,8 +17,7 @@ public class ModEntityTypes {
            ENTITY_TYPES.register("snow_leopard",
                    () -> EntityType.Builder.of(SnowLeopard::new, MobCategory.CREATURE)
                            .sized(1.3F, 1.25F)
-                           .build(new ResourceLocation(MagnificentMountainsMod.MOD_ID,
-                                   "snow_leopard").toString()));
+                           .build(new ResourceLocation(MagnificentMountainsMod.MOD_ID, "snow_leopard").toString()));
 
 
 
