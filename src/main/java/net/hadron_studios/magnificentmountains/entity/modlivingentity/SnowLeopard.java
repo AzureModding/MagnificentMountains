@@ -151,9 +151,27 @@ public class SnowLeopard extends TamableAnimal implements IAnimatable {
                 if (!player.getAbilities().instabuild) {
                     itemStack.shrink(1);
                 }
-                if (!ForgeEventFactory)
+                if (!ForgeEventFactory.onAnimalTame(this, player)) {
+                    if (!this.level.isClientSide) {
+                        super.tame(player);
+                        this.navigation.recomputePath();
+                        this.setTarget(null);
+                        this.level.broadcastEntityEvent(this, (byte)7);
+                        setSitting(true);
+                    }
+                }
+                return InteractionResult.SUCCESS;
             }
         }
+        if (isTame() && !this.level.isClientSide && hand == InteractionHand.MAIN_HAND) {
+            setSitting(!isSitting());
+            return InteractionResult.SUCCESS;
+        }
+
+        if (itemStack.getItem() == itemForTaming) {
+            return InteractionResult.PASS;
+        }
+
         return super.mobInteract(player, hand);
     }
 
