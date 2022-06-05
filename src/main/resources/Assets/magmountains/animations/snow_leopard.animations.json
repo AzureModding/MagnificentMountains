@@ -1,0 +1,323 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.snow_leopard.idle": {
+			"loop": true,
+			"animation_length": 4.4,
+			"bones": {
+				"head": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*150)*0.1", 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*100)*3.75", 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, "-math.sin(query.anim_time*100)*3.75", 0]
+						},
+						"3.24": {
+							"vector": [0, "-math.sin(query.anim_time*100)*3.75", 0],
+							"easing": "easeInQuad"
+						}
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body": {
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*150)*0.1", 0]
+					}
+				}
+			}
+		},
+		"animation.snow_leopard.walk": {
+			"loop": true,
+			"animation_length": 1.2,
+			"bones": {
+				"front_left_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [-15, 0, 0]
+						},
+						"0.56": {
+							"vector": [15, 0, 0]
+						},
+						"1.2": {
+							"vector": [-15, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [-0.25, 0, 0]
+						},
+						"0.56": {
+							"vector": [-0.25, 0, 0.25]
+						},
+						"0.88": {
+							"vector": [0, 0.25, 0.25]
+						},
+						"1.2": {
+							"vector": [-0.25, 0, 0]
+						}
+					}
+				},
+				"main": {
+					"position": {
+						"0.0": {
+							"vector": [0, -0.25, 0]
+						},
+						"0.28": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -0.25, 0]
+						},
+						"0.88": {
+							"vector": [0, 0, 0]
+						},
+						"1.2": {
+							"vector": [0, -0.25, 0]
+						}
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": {
+							"vector": [-7.5, 0, 0]
+						},
+						"0.56": {
+							"vector": [-5, 0, 0]
+						},
+						"1.2": {
+							"vector": [-7.5, 0, 0]
+						}
+					}
+				},
+				"back_right_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [-15, 0, 0]
+						},
+						"0.56": {
+							"vector": [12.5, 0, 0]
+						},
+						"1.2": {
+							"vector": [-15, 0, 0]
+						}
+					},
+					"position": {
+						"0.56": {
+							"vector": [0, 0, 0]
+						},
+						"0.88": {
+							"vector": [0, 0, 0]
+						},
+						"1.2": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"back_left_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [12.5, 0, 0]
+						},
+						"0.56": {
+							"vector": [-15, 0, 0]
+						},
+						"1.2": {
+							"vector": [12.5, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.28": {
+							"vector": [0, 0.5, 0]
+						},
+						"0.56": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"front_right_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [15, 0, 0]
+						},
+						"0.56": {
+							"vector": [-15, 0, 0]
+						},
+						"1.2": {
+							"vector": [15, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0.25, 0, 0]
+						},
+						"0.28": {
+							"vector": [0, 0.25, 0.25]
+						},
+						"0.56": {
+							"vector": [0.25, 0, 0.25]
+						},
+						"1.2": {
+							"vector": [0.25, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.snow_leopard.sitting": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": {
+						"vector": [0, 2.5, 3.5]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": [-11.23449, 71.76036, -60.67945]
+					},
+					"position": {
+						"vector": [0, -11, -1]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"vector": [-65, 0, -87.5]
+					}
+				},
+				"back_right_leg": {
+					"rotation": {
+						"vector": [-92.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, -8, 1]
+					}
+				},
+				"back_left_leg": {
+					"rotation": {
+						"vector": [-92.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, -8, 1]
+					}
+				},
+				"front_right_leg": {
+					"rotation": {
+						"vector": [-9.65001, 0.36108, -2.25956]
+					},
+					"position": {
+						"vector": [0, -1, 1]
+					}
+				},
+				"front_left_leg": {
+					"rotation": {
+						"vector": [-10, 0, 0]
+					},
+					"position": {
+						"vector": [0, -1, 1]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [-40, 0, 0]
+					},
+					"position": {
+						"vector": [0, -2, 0]
+					}
+				}
+			}
+		},
+		"animation.snow_leopard.lying": {
+			"loop": true,
+			"animation_length": 3.24,
+			"bones": {
+				"main": {
+					"rotation": {
+						"vector": [0, 0, -90]
+					},
+					"position": {
+						"vector": [8, 3, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [2.60483, -45.42981, 70.79914]
+					},
+					"position": {
+						"vector": [-0.75, -1, -0.5]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"vector": [-15.37835, -4.98093, 8.6822]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"vector": [-75, 0, 0]
+					}
+				},
+				"back_right_leg": {
+					"rotation": {
+						"vector": [-25, 0, 0]
+					}
+				},
+				"back_left_leg": {
+					"rotation": {
+						"vector": [0, 0, 12.5]
+					},
+					"position": {
+						"vector": [-2, -2, 0]
+					}
+				},
+				"front_right_leg": {
+					"rotation": {
+						"vector": [-65, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"front_left_leg": {
+					"rotation": {
+						"vector": [0, 0, 20]
+					},
+					"position": {
+						"vector": [-1, -1, 0]
+					}
+				},
+				"body": {
+					"position": {
+						"0.0": {
+							"vector": [-0.25, 0, 0]
+						},
+						"1.08": {
+							"vector": [-0.25, 0, 0]
+						},
+						"2.12": {
+							"vector": [0.15, 0, 0],
+							"easing": "easeInQuad"
+						},
+						"3.2": {
+							"vector": [-0.25, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
