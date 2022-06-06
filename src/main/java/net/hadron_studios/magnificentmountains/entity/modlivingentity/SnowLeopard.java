@@ -45,6 +45,9 @@ public class SnowLeopard extends TamableAnimal implements IAnimatable {
     private static final EntityDataAccessor<Boolean> SITTING =
             SynchedEntityData.defineId(SnowLeopard.class, EntityDataSerializers.BOOLEAN);
 
+    private static final EntityDataAccessor<Boolean> LYING =
+            SynchedEntityData.defineId(SnowLeopard.class, EntityDataSerializers.BOOLEAN);
+
 
     public SnowLeopard(EntityType<? extends TamableAnimal> entityType, Level level) {
         super(entityType, level);
@@ -76,14 +79,14 @@ public class SnowLeopard extends TamableAnimal implements IAnimatable {
 
 
     public boolean isLying() {
-        return this.entityData.get(IS_LYING);
+        return this.entityData.get(LYING);
     }
 
     public void setLying(boolean p_28182_) {
-        this.entityData.set(IS_LYING, p_28182_);
+        this.entityData.set(LYING, p_28182_);
     }
 
-        @Nullable
+
     @Override
     public AgeableMob getBreedOffspring(ServerLevel serverLevel, AgeableMob ageableMob) {
         return null;
@@ -191,6 +194,7 @@ public class SnowLeopard extends TamableAnimal implements IAnimatable {
     protected void defineSynchedData() {
         super.defineSynchedData();
         this.entityData.define(SITTING, false);
+        this.entityData.define(LYING, false);
     }
 
     public void setSitting(boolean sitting) {
