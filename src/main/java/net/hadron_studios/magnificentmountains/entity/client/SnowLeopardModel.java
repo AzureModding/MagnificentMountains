@@ -18,6 +18,6 @@ public class SnowLeopardModel extends AnimatedGeoModel<SnowLeopard>{
 
     @Override
     public ResourceLocation getAnimationFileLocation(SnowLeopard animatable) {
-        return new ResourceLocation(MagnificentMountains.MOD_ID, "animations/snow_leopard.animations.json");
+        return new ResourceLocation(MagnificentMountains.MOD_ID, "animations/snow_leopard.animation.json");
     }
 }
