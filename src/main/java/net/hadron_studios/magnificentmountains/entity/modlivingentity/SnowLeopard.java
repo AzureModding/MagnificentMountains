@@ -24,6 +24,7 @@ import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.scores.Team;
@@ -68,13 +69,14 @@ public class SnowLeopard extends TamableAnimal implements IAnimatable {
         this.goalSelector.addGoal(1, new FloatGoal(this));
 
         this.goalSelector.addGoal(1, new SitWhenOrderedToGoal(this));
+        this.goalSelector.addGoal(3, new TemptGoal(this, 1.25D, Ingredient.of(ModItems.IBEXMEAT.get()), false));
         this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 4.0f));
-        this.goalSelector.addGoal(8, new FollowOwnerGoal(this, 1.0D, 10.0F, 5.0F, false));
+        this.goalSelector.addGoal(2, new FollowOwnerGoal(this, 1.0D, 10.0F, 5.0F, false));
         this.goalSelector.addGoal(4, new WaterAvoidingRandomStrollGoal(this, 0.8D, 1.0000001E-5F));
-        this.goalSelector.addGoal(3, new LeapAtTargetGoal(this, 0.3F));
+        this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, 0.3F));
         this.goalSelector.addGoal(5, new SnowLeopardSitOnBlockGoal(this, 0.8D));
         this.goalSelector.addGoal(6, new SnowLeopardLieOnBedGoal(this, 1.1D, 8));
-        this.goalSelector.addGoal(7, new FollowParentGoal(this, 1.25D));
+        this.goalSelector.addGoal(2, new FollowParentGoal(this, 1.25D));
     }
 
 
