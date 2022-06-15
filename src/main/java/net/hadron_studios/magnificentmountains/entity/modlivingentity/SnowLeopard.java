@@ -59,7 +59,7 @@ public class SnowLeopard extends TamableAnimal implements IAnimatable {
                 .add(Attributes.MAX_HEALTH, 50.00f)
                 .add(Attributes.ATTACK_DAMAGE, 5.0f)
                 .add(Attributes.ATTACK_SPEED, 4.0f)
-                .add(Attributes.MOVEMENT_SPEED, 1.0f)
+                .add(Attributes.MOVEMENT_SPEED, 0.3f)
                 .add(Attributes.JUMP_STRENGTH, 4.0f)
                 .add(Attributes.ATTACK_KNOCKBACK, 2.0f)
                 .add(Attributes.FLYING_SPEED, 3.0f).build();
@@ -96,19 +96,19 @@ public class SnowLeopard extends TamableAnimal implements IAnimatable {
 
     private <E extends IAnimatable>PlayState predicate(AnimationEvent<E> event) {
         if (event.isMoving()) {
-            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snowleopard.walk", true));
+            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snow_leopard.walk", true));
             return PlayState.CONTINUE;
         }
 
         if (this.isLying()) {
-            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snowleopard.lying", false));
+            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snow_leopard.lying", true));
         }
 
         if (this.isSitting()) {
-            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snowleopard.sitting", false));
+            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snow_leopard.sitting", true));
         }
 
-        event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snowleopard.idle", true));
+        event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snow_leopard.idle", true));
         return  PlayState.CONTINUE;
 
     }

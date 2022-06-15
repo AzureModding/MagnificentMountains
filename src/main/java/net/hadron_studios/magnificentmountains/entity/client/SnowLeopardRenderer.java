@@ -26,7 +26,7 @@ public class SnowLeopardRenderer extends GeoEntityRenderer<SnowLeopard> {
                                     MultiBufferSource renderTypeBuffer,
                                     VertexConsumer vertexBuilder, int packedLightIn,
                                     ResourceLocation textureLocation) {
-        stack.scale(0.8f, 0.8f, 0.8f);
+        stack.scale(1.6f, 1.6f, 1.6f);
         return super.getRenderType(animatable, partialTicks, stack, renderTypeBuffer, vertexBuilder, packedLightIn, textureLocation);
     }
 }
