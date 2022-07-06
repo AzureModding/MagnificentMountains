@@ -102,10 +102,12 @@ public class SnowLeopard extends TamableAnimal implements IAnimatable {
 
         if (this.isLying()) {
             event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snow_leopard.lying", true));
+            return  PlayState.CONTINUE;
         }
 
         if (this.isSitting()) {
             event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snow_leopard.sitting", true));
+            return  PlayState.CONTINUE;
         }
 
         event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.snow_leopard.idle", true));
